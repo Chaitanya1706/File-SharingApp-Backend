@@ -17,7 +17,7 @@ const toast = document.querySelector(".toast")
 
 const maxUploadSize = 100 * 1024 * 1024;
 
-const host = "https://quick-fileshare.herokuapp.com/"
+const host = "https://quick-fileshare.herokuapp.com"
 
 const uploadURL = `${host}api/files`;
 const emailURL = `${host}api/files/send`;
